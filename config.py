@@ -1,0 +1,29 @@
+#-*-coding:utf8-*-
+#author : Lenovo
+#date: 2018/9/3
+DEBUG=True
+DB_URI='mysql+pymysql://root:123@127.0.0.1:3306/bbs?charset=utf8'
+
+SQLALCHEMY_DATABASE_URI=DB_URI
+SQLALCHEMY_TRACK_MODIFICATIONS=False
+SECRET_KEY='f0db499238464e40887925ca2bf1af22'
+
+Admin_id='ASASADD' #用来存储登陆的session
+
+
+
+MAIL_SERVER = "SMTP.qq.com"
+MAIL_PORT = "587"
+MAIL_USE_TLS = True
+# MAIL_USE_SSL
+MAIL_USERNAME = "1364826576@qq.com"
+MAIL_PASSWORD = "bvlaotbubmbpijch"  #此处不是qq密码 而是qq邮箱授权码
+MAIL_DEFAULT_SENDER = "1364826576@qq.com"
+
+
+
+
+ALIDAYU_APP_KEY = 'LTaAxIWVQxxxxxxT8Q'
+ALIDAYU_APP_SECRET = 'AESRSxcqR7e4xxxxcIL8LhJ'
+ALIDAYU_SIGN_NAME = '仙剑论坛网站'
+ALIDAYU_TEMPLATE_CODE = 'SMS_136870947'
